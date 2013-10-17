@@ -1,6 +1,9 @@
 ﻿(function() {
 
-    var products = ["Chai", "Chang", "Aniseed Syrup", "Chef Anton's Cajun Seasoning", "Chef Anton's Gumbo Mix", "Grandma's Boysenberry Spread",
+    var products = [
+                    device.name, device.cordova, device.platform, device.uuid, device.version, device.model, 
+                    "Chai", "Chang", "Aniseed Syrup", "Chef Anton's Cajun Seasoning", "Chef Anton's Gumbo Mix", 
+                    "Grandma's Boysenberry Spread",
                    "Ikura", "Queso Cabrales", "Queso Manchego La Pastora", "Konbu", "Tofu", "Genen Shouyu", "Pavlova", "Alice Mutton", "Carnarvon Tigers",
                    "Teatime Chocolate Biscuits"];
     var productsCustom = [
