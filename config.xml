@@ -1,4 +1,14 @@
-<gap:platform name="ios" />
-<gap:platform name="webos" />
-<gap:platform name="symbian" />
-<gap:platform name="blackberry" />
+ <widget>
+     <preference name="KSDG WP Test" value="true" />
+     <plugins>
+     <plugin name="MyPlugin" value="MyPluginClass" />
+     </plugins>
+     <access origin="*" />
+     <content src="index.html" />
+
+     <gap:platform name="ios" />
+     <gap:platform name="webos" />
+     <gap:platform name="symbian" />
+     <gap:platform name="blackberry" />
+ </widget>
+
